@@ -1,0 +1,95 @@
+  <!DOCTYPE html>
+  <html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JavaScript基础知识联系</title>
+    </head>
+    <body>
+        <h1>JavaScript基础知识联系</h1>
+        <script>
+        //变量的定义
+            var name ="Alice";
+            let age =30;
+            const PI = 3.14;
+            //打印变量
+            console.log("Name:", name);  
+            console.log("Age:", age);
+            console.log("PI:", PI);
+            //变量的类型
+            console.log("Name type:", typeof name);
+            console.log("Age type:", typeof age);
+            console.log("PI type:", typeof PI); 
+            //javaScript中的数据类型
+            let isstudent = true; // boolean
+            let score = null; // null 
+            let undefinedVar; // undefined
+            let bigIntNum = 123456789012345678901234567890n; // BigInt
+            let symbolVar = Symbol("unique"); // Symbol
+            //打印数据类型
+            console.log("isstudent type:", typeof isstudent);
+            console.log("score type:", typeof score);
+            console.log("undefinedVar type:", typeof undefinedVar);
+            console.log("bigIntNum type:", typeof bigIntNum);
+            console.log("symbolVar type:", typeof symbolVar);
+            //运算符与表达式（加上注释，请全面补全）
+            let a = 10;
+            let b = 5;
+            //算术运算符
+            console.log("a + b =", a + b); // 加法
+            console.log("a - b =", a - b); // 减法
+            console.log("a * b =", a * b); // 乘法  
+            console.log("a / b =", a / b); // 除法
+            console.log("a % b =", a % b); // 取模
+            //赋值运算符
+            a += 5; // 等价于 a = a + 5
+            console.log("a after += 5:", a);
+            b -= 2; // 等价于 b = b - 2
+            console.log("b after -= 2:", b);    
+            //逻辑运算符
+            let c = true;
+            let d = false;
+            console.log("c && d =", c && d); // 与运算
+            console.log("c || d =", c || d); // 或运算
+            console.log("!c =", !c); // 非运算  
+            //比较运算符
+            console.log("a > b =", a > b); // 大于
+            console.log("a < b =", a < b); // 小于
+            console.log("a >= b =", a >= b); // 大于等于
+            console.log("a <= b =", a <= b); // 小于等于
+            console.log("a == b =", a == b); // 等于
+            console.log("a != b =", a != b); // 不等于  
+            //流程控制
+            let score2 = 85;
+            if (score2 >= 90) {
+                console.log("Grade: A");
+            } else if (score2 >= 80) {
+                console.log("Grade: B");
+            } else if (score2 >= 70) {
+                console.log("Grade: C");
+            } else if (score2 >= 60) {
+                console.log("Grade: D");
+            } else {
+                console.log("Grade: F");
+            }
+            //循环控制
+            for (let i = 0; i < 5; i++) {
+                console.log("For loop iteration:", i);
+            }
+            let j = 0;
+            while (j < 5) {
+                console.log("While loop iteration:", j);
+                j++;
+            }
+            //函数定义与调用
+            function greet(name) {  
+                return "Hello, " + name + "!";
+            }
+            console.log(greet("Alice")); // 调用函数并打印结果
+            
+
+        </script>
+        </body>
+        </html>
+
+       
